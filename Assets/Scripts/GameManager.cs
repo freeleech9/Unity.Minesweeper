@@ -129,8 +129,7 @@ public class GameManager : MonoBehaviour
         {
             for (int y = 0; y < columns; y++)
             {
-                if (squares[x,
-                y].isMine)
+                if (squares[x, y].isMine)
                 {
                     squares[x, y].reveal();
                 }
